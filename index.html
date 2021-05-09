@@ -126,11 +126,38 @@
             <div class="section-title" id="projects">
                 <h2>> Projects</h2>
                 <p class="quote">"It’s not a bug – it’s an undocumented feature." - Anonymous</p>
+
+                <div class="project-card">
+                    <h3 class="project-title">Configured an AWS Web Server to Host a Web
+                        Microservice</h3>
+                    <p class="project-description">
+                        Set up an AWS EC2 web server and configured different services (Clevernote & arb.codes) through
+                        Virtual Hosting. <br> Configured DNS and mapped it with the web server through Elastic IP. 
+                        Created a short application (Clevernote) and<br> used it as the primary project. 
+                        Uploaded it over github and pulled the master branch to my server. 
+                       <br> <br> Tech involved include AWS EC2 Ubuntu image, Elastic IP load balancer,
+                        Virtual Hosting through ApacheV2, Confd <br> Configuration, Version
+                        Control, DNS Config and full stack for the microservice.
+                        Currently serving two websites from <br>my server.
+                        
+                    </p>
+                    <div class="project-skills">
+                        <span class="project-skill">AWS</span>
+                        <span class="project-skill">Apache2 Virtual Hosts</span>
+                        <span class="project-skill">Server Side Configs</span>
+                    </div>
+                    
+                </div>
+
                 <div class="project-card">
                     <h3 class="project-title">Clevernote</h3>
-                    <p class="project-description">A clean note taking web-app inspired from <a href="https://notion.so/" target="_blank" rel="noopener noreferrer">Notion</a> & <a href="https://evernote.com/" target="_blank" rel="noopener noreferrer">Evernote.</a> <br>
-                        It has functionalities like New Note, Archive Note, Restore Note, Delete
-                        Note and Dark Mode.
+                    <p class="project-description">A clean note taking web app that's a mix of
+                         <a href="https://notion.so/" target="_blank" rel="noopener noreferrer">Notion</a> & 
+                         <a href="https://evernote.com/" target="_blank" rel="noopener noreferrer">Evernote.</a> <br>
+                         Simple CRUD operation has been implemented which includes new
+                         note, archive, delete, restore and dark mode. <br>
+                         Application is live on AWS EC2 instance and cloud storage using
+                            MongoDB Atlas. Tech stack used is MERN.
                     </p>
                     <div class="project-skills">
                         <span class="project-skill">HTML5</span>
@@ -140,25 +167,29 @@
                     <div class="project-links">
                         <a href="https://github.com/akshatrb/Clevernote" class="link button" target="_blank" rel="noopener noreferrer">
                             <i class="fab fa-github"></i> Source</a>
+                            <a href="http://clevernote.arb.codes:5000/" class="live-demo button" target="_blank" rel="noopener noreferrer">Live 
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
                     </div>
                 </div>
+
                 <div class="project-card">
-                    <h3 class="project-title">Twitter Sentiment Analysis</h3>
-                    <p class="project-description">
-                        A Sentiment Analysis methodology on tweets. <br>
-                        Employed the publicly available twitter API v1.1 to fetch tweets.
-                        </p>
+                    <h3 class="project-title">arb.codes</h3>
+                    <p class="project-description">It's this site you are currently visiting! This is my developer 
+                        portfolio. It is a responsive website with a little bit of text animation.
+                        This project was created for HTML, CSS, and JS learning purposes.
+                    </p>
                     <div class="project-skills">
-                        <span class="project-skill">Python</span>
-                        <span class="project-skill">Data Analysis</span>
-                        <span class="project-skill">tweepy/textblob</span>
+                        <span class="project-skill">HTML5</span>
+                        <span class="project-skill">CSS3</span>
+                        <span class="project-skill">JavaScript</span>
                     </div>
                     <div class="project-links">
-                        <a href="https://github.com/akshatrb/Sentiment-Analysis" class="link button" target="_blank" rel="noopener noreferrer">
-                            <i class="fab fa-github"></i> Source
-                        </a>
+                        <a href="http://arb.codes/source" class="link button">
+                            <i class="fab fa-github"></i> Source</a>
                     </div>
                 </div>
+
                 <div class="project-card">
                     <h3 class="project-title">Loan Prediction - A Binary Classification Model</h3>
                     <p class="project-description">
@@ -175,11 +206,36 @@
                         </a>
                     </div>
                 </div>
+                
+                <div class="project-card">
+                    <h3 class="project-title">Twitter Sentiment Analysis</h3>
+                    <p class="project-description">
+                        Implemented a SA methodology where tweets of a public user are
+                        fetched via tweepy from twitter’s api v1.1. <br>
+                        Performed preprocessing steps, calculated subjectivity and polarity.
+                        Used these scores to perform a comparative analysis.
+                        </p>
+                    <div class="project-skills">
+                        <span class="project-skill">Python</span>
+                        <span class="project-skill">Data Analysis</span>
+                        <span class="project-skill">tweepy/textblob</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/akshatrb/Sentiment-Analysis" class="link button" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-github"></i> Source
+                        </a>
+                    </div>
+                </div>
+               
                 <div class="project-card">
                     <h3 class="project-title">COVID-19 Notification Script</h3>
                     <p class="project-description">
-                        In an attempt to counter the OCD of regularly checking the updates on COVID cases & deaths, I created this script. 
-                        It notifies the user about the number of active cases, deaths, etc via a Windows notification pop-up.
+                        To counter the OCD of checking updates of COVID cases & deaths,  I
+                        created this python script that scrapes data from 
+                        <a href="https://www.mohfw.gov.in/" target="_blank" rel="noopener noreferrer">MOHFW</a> website. 
+                        
+                        It notifies the user about the number of active cases, deaths, etc via a
+                        Windows notification at interval.
                     </p>
                     <div class="project-skills">
                         <span class="project-skill">Python</span>
