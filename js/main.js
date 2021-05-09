@@ -2,6 +2,7 @@ var previousScrollPosition = window.pageYOffset;
 var nav = document.getElementById("nav");
 var menuIcon = document.getElementById("menu-icon");
 var navItems = document.getElementById("nav-items");
+       
 
 // Show/Hide nav bar on scroll
 window.onscroll = function () {

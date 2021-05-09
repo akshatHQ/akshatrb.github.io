@@ -247,7 +247,7 @@ a {
     font-size: 2.5em;
     border-right: 0.8em solid;
     box-sizing: border-box;
-    animation: typing 3s steps(11, end), blink 1s step-end infinite;
+    animation: typing 3s steps(18, end), blink 1s step-end infinite;
 }
 
 .typewriter h1 a {
