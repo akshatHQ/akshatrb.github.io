@@ -273,14 +273,35 @@ a {
 }
 
 /* Short Bio */
+.short-bio-hindi {
+    margin: 20px auto;
+}
+
+
+.short-bio-hindi p {
+    font-size: 1.1em;
+    padding-bottom: 5px;
+}
+
+.short-bio-hindi p a {
+    color: #4A2040;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.short-bio-hindi p a:hover {
+    color: #BC4E69;
+    transition: all 0.2s ease-out;
+}
 
 .short-bio {
     margin: 20px auto;
 }
 
 .short-bio p {
-    padding-bottom: 5px;
+  padding-bottom: 5px;
 }
+
 
 .short-bio p a {
     color: #4A2040;
