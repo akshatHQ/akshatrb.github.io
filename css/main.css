@@ -1,4 +1,5 @@
 @import url(//fonts.googleapis.com/css?family=Vibur);
+@import url('http://fonts.cdnfonts.com/css/nickainley');
 
 * {
     margin: 0 auto;
@@ -24,7 +25,6 @@ h1, h2 {
 h3 {
     font-family: 'Noto Sans', sans-serif;
 }
-
 
 
 a {
@@ -118,12 +118,14 @@ a {
 /* Logo */
 
 .logo {
+    font-family: 'Nickainley';
     display: block;
     float: left;
-    margin: 15px 0;
+    margin: 7.5px 0;
     padding: 0 20px;
     height: 30px;
-    font-size: 1.5em;
+    font-size: 2.2em;
+    color: #000000;
 }
 
 
